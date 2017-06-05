@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C500F76D1E509CD20026C30B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C500F76C1E509CD20026C30B /* DatePickerViewController.swift */; };
+		C501ABA71E59FD8E00BB6DB6 /* vast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C501ABA61E59FD8E00BB6DB6 /* vast.mp3 */; };
+		C5078A451E3A95B7008F6455 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5078A441E3A95B7008F6455 /* InfoViewController.swift */; };
+		C5078A4B1E3AA6E3008F6455 /* ClientMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5078A4A1E3AA6E3008F6455 /* ClientMessageCollectionViewCell.swift */; };
+		C5078A4D1E3AA6F4008F6455 /* DriverMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5078A4C1E3AA6F4008F6455 /* DriverMessageCollectionViewCell.swift */; };
+		C5078A4F1E3AB8ED008F6455 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5078A4E1E3AB8ED008F6455 /* Message.swift */; };
+		C5078A511E3AC22F008F6455 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5078A501E3AC22F008F6455 /* LoadingViewController.swift */; };
+		C53756501E30FC40003AEECE /* UserManagement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C537564F1E30FC40003AEECE /* UserManagement.storyboard */; };
+		C53756541E30FD3B003AEECE /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53756531E30FD3B003AEECE /* MainContainerViewController.swift */; };
+		C53756561E30FDE1003AEECE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53756551E30FDE1003AEECE /* MainViewController.swift */; };
+		C53756581E30FE10003AEECE /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53756571E30FE10003AEECE /* SidePanelViewController.swift */; };
+		C53C424C1E7087C700375019 /* PhoneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C424B1E7087C700375019 /* PhoneListViewController.swift */; };
+		C53C424E1E70886500375019 /* PhoneListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C424D1E70886500375019 /* PhoneListTableViewCell.swift */; };
+		C55D03F61E379A3D00C82D2A /* SideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D03F51E379A3D00C82D2A /* SideTableViewCell.swift */; };
+		C55D03F81E37A93100C82D2A /* ProfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D03F71E37A93100C82D2A /* ProfitViewController.swift */; };
+		C55D03FA1E37A94200C82D2A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D03F91E37A94200C82D2A /* ProfileViewController.swift */; };
+		C55D03FC1E37A95B00C82D2A /* OrdersHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D03FB1E37A95B00C82D2A /* OrdersHistoryViewController.swift */; };
+		C56C37091E3E078600324F07 /* OrderHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C37081E3E078600324F07 /* OrderHistoryTableViewCell.swift */; };
+		C56C370D1E3E1CC600324F07 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C370C1E3E1CC600324F07 /* OrderHistory.swift */; };
+		C573632F1E3FA87300E410D8 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573632E1E3FA87300E410D8 /* Driver.swift */; };
+		C57363311E3FAA1100E410D8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57363301E3FAA1100E410D8 /* Order.swift */; };
+		C57D42CD1E34F8CD0034D52F /* SocketIOController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42C91E34F8CD0034D52F /* SocketIOController.swift */; };
+		C57D42CE1E34F8CD0034D52F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42CA1E34F8CD0034D52F /* Request.swift */; };
+		C57D42CF1E34F8CD0034D52F /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42CB1E34F8CD0034D52F /* Links.swift */; };
+		C57D42D01E34F8CD0034D52F /* SocketEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42CC1E34F8CD0034D52F /* SocketEvents.swift */; };
+		C57D42D51E34F8F30034D52F /* ArabicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42D11E34F8F20034D52F /* ArabicStrings.swift */; };
+		C57D42D61E34F8F30034D52F /* EnglishStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42D21E34F8F20034D52F /* EnglishStrings.swift */; };
+		C57D42D71E34F8F30034D52F /* DialogsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42D31E34F8F20034D52F /* DialogsHelper.swift */; };
+		C57D42D81E34F8F30034D52F /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42D41E34F8F30034D52F /* LanguageHelper.swift */; };
+		C57D42DA1E34F9160034D52F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42D91E34F9160034D52F /* UserData.swift */; };
+		C57D42DD1E3507200034D52F /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D42DC1E3507200034D52F /* MapPin.swift */; };
+		C57D42DF1E35119B0034D52F /* PopUps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D42DE1E35119B0034D52F /* PopUps.storyboard */; };
+		C5A2BE8A1E38CA4700D75CEE /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2BE891E38CA4700D75CEE /* NewOrderViewController.swift */; };
+		C5B5FD581E4B69BB004B20A6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5FD571E4B69BB004B20A6 /* MessagesViewController.swift */; };
+		C5B5FD5C1E4B7866004B20A6 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5FD5B1E4B7866004B20A6 /* MessageTableViewCell.swift */; };
+		C5B5FD601E4B86F6004B20A6 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5FD5F1E4B86F6004B20A6 /* PaddedLabel.swift */; };
+		C5B5FD681E4B9F43004B20A6 /* LocalizationOrientedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5FD671E4B9F43004B20A6 /* LocalizationOrientedViewController.swift */; };
+		C5E298181E6453EA001767D6 /* notifications.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5E298171E6453EA001767D6 /* notifications.gif */; };
+		C5E2981C1E648B6B001767D6 /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2981B1E648B6B001767D6 /* InvoiceViewController.swift */; };
+		C5E2981E1E648CD6001767D6 /* InvoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2981D1E648CD6001767D6 /* InvoiceTableViewCell.swift */; };
+		C5F45B881E3642DD003DF64A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F45B871E3642DD003DF64A /* SplashViewController.swift */; };
+		C5F45B8A1E3642F3003DF64A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F45B891E3642F3003DF64A /* LogInViewController.swift */; };
+		C5FE8EE31E2CC3C8003FEBDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE8EE21E2CC3C8003FEBDA /* AppDelegate.swift */; };
+		C5FE8EE81E2CC3C8003FEBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FE8EE61E2CC3C8003FEBDA /* Main.storyboard */; };
+		C5FE8EEB1E2CC3C8003FEBDA /* MandobiDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5FE8EE91E2CC3C8003FEBDA /* MandobiDriver.xcdatamodeld */; };
+		C5FE8EED1E2CC3C8003FEBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FE8EEC1E2CC3C8003FEBDA /* Assets.xcassets */; };
+		C5FE8EF01E2CC3C8003FEBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FE8EEE1E2CC3C8003FEBDA /* LaunchScreen.storyboard */; };
+		CDB321A4F4EA7EA459965C4D /* Pods_MandobiDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9BE14B80BA4AE055BC40EF /* Pods_MandobiDriver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A83B3E9D89EAF2619EDCEE1 /* Pods-MandobiDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandobiDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-MandobiDriver/Pods-MandobiDriver.release.xcconfig"; sourceTree = "<group>"; };
+		B4F16539AD405CA4B7D1789E /* Pods-MandobiDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandobiDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MandobiDriver/Pods-MandobiDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		C500F76C1E509CD20026C30B /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		C501ABA61E59FD8E00BB6DB6 /* vast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vast.mp3; sourceTree = "<group>"; };
+		C5078A441E3A95B7008F6455 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C5078A4A1E3AA6E3008F6455 /* ClientMessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5078A4C1E3AA6F4008F6455 /* DriverMessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5078A4E1E3AB8ED008F6455 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C5078A501E3AC22F008F6455 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		C537564F1E30FC40003AEECE /* UserManagement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserManagement.storyboard; sourceTree = "<group>"; };
+		C53756531E30FD3B003AEECE /* MainContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
+		C53756551E30FDE1003AEECE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C53756571E30FE10003AEECE /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		C53C424B1E7087C700375019 /* PhoneListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneListViewController.swift; sourceTree = "<group>"; };
+		C53C424D1E70886500375019 /* PhoneListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneListTableViewCell.swift; sourceTree = "<group>"; };
+		C55D03F51E379A3D00C82D2A /* SideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideTableViewCell.swift; sourceTree = "<group>"; };
+		C55D03F71E37A93100C82D2A /* ProfitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfitViewController.swift; sourceTree = "<group>"; };
+		C55D03F91E37A94200C82D2A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C55D03FB1E37A95B00C82D2A /* OrdersHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersHistoryViewController.swift; sourceTree = "<group>"; };
+		C56C37081E3E078600324F07 /* OrderHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C56C370C1E3E1CC600324F07 /* OrderHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		C573632E1E3FA87300E410D8 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		C57363301E3FAA1100E410D8 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C57D42C91E34F8CD0034D52F /* SocketIOController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOController.swift; sourceTree = "<group>"; };
+		C57D42CA1E34F8CD0034D52F /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C57D42CB1E34F8CD0034D52F /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		C57D42CC1E34F8CD0034D52F /* SocketEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEvents.swift; sourceTree = "<group>"; };
+		C57D42D11E34F8F20034D52F /* ArabicStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArabicStrings.swift; sourceTree = "<group>"; };
+		C57D42D21E34F8F20034D52F /* EnglishStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishStrings.swift; sourceTree = "<group>"; };
+		C57D42D31E34F8F20034D52F /* DialogsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogsHelper.swift; sourceTree = "<group>"; };
+		C57D42D41E34F8F30034D52F /* LanguageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		C57D42D91E34F9160034D52F /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		C57D42DC1E3507200034D52F /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		C57D42DE1E35119B0034D52F /* PopUps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUps.storyboard; sourceTree = "<group>"; };
+		C5A2BE891E38CA4700D75CEE /* NewOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		C5B5FD571E4B69BB004B20A6 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C5B5FD5B1E4B7866004B20A6 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		C5B5FD5F1E4B86F6004B20A6 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		C5B5FD671E4B9F43004B20A6 /* LocalizationOrientedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationOrientedViewController.swift; sourceTree = "<group>"; };
+		C5E298171E6453EA001767D6 /* notifications.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = notifications.gif; sourceTree = "<group>"; };
+		C5E2981B1E648B6B001767D6 /* InvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
+		C5E2981D1E648CD6001767D6 /* InvoiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceTableViewCell.swift; sourceTree = "<group>"; };
+		C5F45B871E3642DD003DF64A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C5F45B891E3642F3003DF64A /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C5FE8EDF1E2CC3C8003FEBDA /* MandobiDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandobiDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FE8EE21E2CC3C8003FEBDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5FE8EE71E2CC3C8003FEBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FE8EEA1E2CC3C8003FEBDA /* MandobiDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MandobiDriver.xcdatamodel; sourceTree = "<group>"; };
+		C5FE8EEC1E2CC3C8003FEBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FE8EEF1E2CC3C8003FEBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FE8EF11E2CC3C8003FEBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9BE14B80BA4AE055BC40EF /* Pods_MandobiDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MandobiDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FE8EDC1E2CC3C8003FEBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB321A4F4EA7EA459965C4D /* Pods_MandobiDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2870BDD9505AE2938EF92F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4F16539AD405CA4B7D1789E /* Pods-MandobiDriver.debug.xcconfig */,
+				5A83B3E9D89EAF2619EDCEE1 /* Pods-MandobiDriver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C501ABA31E59F15700BB6DB6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C501ABA61E59FD8E00BB6DB6 /* vast.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		C5078A521E3AD1EB008F6455 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5FD5F1E4B86F6004B20A6 /* PaddedLabel.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		C55D03F41E379A2500C82D2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C55D03F51E379A3D00C82D2A /* SideTableViewCell.swift */,
+				C5078A4A1E3AA6E3008F6455 /* ClientMessageCollectionViewCell.swift */,
+				C5078A4C1E3AA6F4008F6455 /* DriverMessageCollectionViewCell.swift */,
+				C56C37081E3E078600324F07 /* OrderHistoryTableViewCell.swift */,
+				C5B5FD5B1E4B7866004B20A6 /* MessageTableViewCell.swift */,
+				C5E2981D1E648CD6001767D6 /* InvoiceTableViewCell.swift */,
+				C53C424D1E70886500375019 /* PhoneListTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C57D42C61E34F8700034D52F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5F45B7D1E3621DA003DF64A /* Custom Fonts */,
+				C57D42DB1E35070D0034D52F /* Modules */,
+				C57D42C81E34F8AD0034D52F /* ConnectionManager */,
+				C57D42C71E34F8930034D52F /* Helpers */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C57D42C71E34F8930034D52F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C57D42D11E34F8F20034D52F /* ArabicStrings.swift */,
+				C57D42D21E34F8F20034D52F /* EnglishStrings.swift */,
+				C57D42D31E34F8F20034D52F /* DialogsHelper.swift */,
+				C57D42D41E34F8F30034D52F /* LanguageHelper.swift */,
+				C57D42D91E34F9160034D52F /* UserData.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C57D42C81E34F8AD0034D52F /* ConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				C57D42C91E34F8CD0034D52F /* SocketIOController.swift */,
+				C57D42CA1E34F8CD0034D52F /* Request.swift */,
+				C57D42CB1E34F8CD0034D52F /* Links.swift */,
+				C57D42CC1E34F8CD0034D52F /* SocketEvents.swift */,
+			);
+			name = ConnectionManager;
+			sourceTree = "<group>";
+		};
+		C57D42DB1E35070D0034D52F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C57D42DC1E3507200034D52F /* MapPin.swift */,
+				C5078A4E1E3AB8ED008F6455 /* Message.swift */,
+				C56C370C1E3E1CC600324F07 /* OrderHistory.swift */,
+				C573632E1E3FA87300E410D8 /* Driver.swift */,
+				C57363301E3FAA1100E410D8 /* Order.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		C5E298151E6453BC001767D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5E298161E6453D9001767D6 /* Gifs */,
+				C501ABA31E59F15700BB6DB6 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C5E298161E6453D9001767D6 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				C5E298171E6453EA001767D6 /* notifications.gif */,
+			);
+			name = Gifs;
+			sourceTree = "<group>";
+		};
+		C5F45B7D1E3621DA003DF64A /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		C5FE8ED61E2CC3C8003FEBDA = {
+			isa = PBXGroup;
+			children = (
+				C5FE8EE11E2CC3C8003FEBDA /* MandobiDriver */,
+				C5FE8EE01E2CC3C8003FEBDA /* Products */,
+				A2870BDD9505AE2938EF92F3 /* Pods */,
+				E04820EBEE1463A57F34C3A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FE8EE01E2CC3C8003FEBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FE8EDF1E2CC3C8003FEBDA /* MandobiDriver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FE8EE11E2CC3C8003FEBDA /* MandobiDriver */ = {
+			isa = PBXGroup;
+			children = (
+				C5E298151E6453BC001767D6 /* Resources */,
+				C5078A521E3AD1EB008F6455 /* Custom Views */,
+				C55D03F41E379A2500C82D2A /* Cells */,
+				C57D42C61E34F8700034D52F /* Models */,
+				C5FE8EF81E2CC3FB003FEBDA /* ViewControllers */,
+				C5FE8EF71E2CC3D7003FEBDA /* Storyboards */,
+				C5FE8EE21E2CC3C8003FEBDA /* AppDelegate.swift */,
+				C5FE8EEC1E2CC3C8003FEBDA /* Assets.xcassets */,
+				C5FE8EF11E2CC3C8003FEBDA /* Info.plist */,
+				C5FE8EE91E2CC3C8003FEBDA /* MandobiDriver.xcdatamodeld */,
+			);
+			path = MandobiDriver;
+			sourceTree = "<group>";
+		};
+		C5FE8EF71E2CC3D7003FEBDA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C5FE8EEE1E2CC3C8003FEBDA /* LaunchScreen.storyboard */,
+				C5FE8EE61E2CC3C8003FEBDA /* Main.storyboard */,
+				C537564F1E30FC40003AEECE /* UserManagement.storyboard */,
+				C57D42DE1E35119B0034D52F /* PopUps.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C5FE8EF81E2CC3FB003FEBDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C53756531E30FD3B003AEECE /* MainContainerViewController.swift */,
+				C53756551E30FDE1003AEECE /* MainViewController.swift */,
+				C53756571E30FE10003AEECE /* SidePanelViewController.swift */,
+				C5F45B871E3642DD003DF64A /* SplashViewController.swift */,
+				C5F45B891E3642F3003DF64A /* LogInViewController.swift */,
+				C55D03F71E37A93100C82D2A /* ProfitViewController.swift */,
+				C55D03F91E37A94200C82D2A /* ProfileViewController.swift */,
+				C55D03FB1E37A95B00C82D2A /* OrdersHistoryViewController.swift */,
+				C5A2BE891E38CA4700D75CEE /* NewOrderViewController.swift */,
+				C5078A441E3A95B7008F6455 /* InfoViewController.swift */,
+				C5078A501E3AC22F008F6455 /* LoadingViewController.swift */,
+				C5B5FD571E4B69BB004B20A6 /* MessagesViewController.swift */,
+				C500F76C1E509CD20026C30B /* DatePickerViewController.swift */,
+				C5B5FD671E4B9F43004B20A6 /* LocalizationOrientedViewController.swift */,
+				C5E2981B1E648B6B001767D6 /* InvoiceViewController.swift */,
+				C53C424B1E7087C700375019 /* PhoneListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E04820EBEE1463A57F34C3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9BE14B80BA4AE055BC40EF /* Pods_MandobiDriver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FE8EDE1E2CC3C8003FEBDA /* MandobiDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FE8EF41E2CC3C8003FEBDA /* Build configuration list for PBXNativeTarget "MandobiDriver" */;
+			buildPhases = (
+				A32ADF83F552F9F6D871E4A7 /* [CP] Check Pods Manifest.lock */,
+				C5FE8EDB1E2CC3C8003FEBDA /* Sources */,
+				C5FE8EDC1E2CC3C8003FEBDA /* Frameworks */,
+				C5FE8EDD1E2CC3C8003FEBDA /* Resources */,
+				77307AAB42D7D69D9088A8C9 /* [CP] Embed Pods Frameworks */,
+				9E392B10B04977A770F46334 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MandobiDriver;
+			productName = MandobiDriver;
+			productReference = C5FE8EDF1E2CC3C8003FEBDA /* MandobiDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FE8ED71E2CC3C8003FEBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Applexicon;
+				TargetAttributes = {
+					C5FE8EDE1E2CC3C8003FEBDA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5XVQXNUMT6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5FE8EDA1E2CC3C8003FEBDA /* Build configuration list for PBXProject "MandobiDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FE8ED61E2CC3C8003FEBDA;
+			productRefGroup = C5FE8EE01E2CC3C8003FEBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FE8EDE1E2CC3C8003FEBDA /* MandobiDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FE8EDD1E2CC3C8003FEBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53756501E30FC40003AEECE /* UserManagement.storyboard in Resources */,
+				C5E298181E6453EA001767D6 /* notifications.gif in Resources */,
+				C5FE8EF01E2CC3C8003FEBDA /* LaunchScreen.storyboard in Resources */,
+				C501ABA71E59FD8E00BB6DB6 /* vast.mp3 in Resources */,
+				C57D42DF1E35119B0034D52F /* PopUps.storyboard in Resources */,
+				C5FE8EED1E2CC3C8003FEBDA /* Assets.xcassets in Resources */,
+				C5FE8EE81E2CC3C8003FEBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77307AAB42D7D69D9088A8C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandobiDriver/Pods-MandobiDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E392B10B04977A770F46334 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandobiDriver/Pods-MandobiDriver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32ADF83F552F9F6D871E4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FE8EDB1E2CC3C8003FEBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57D42D51E34F8F30034D52F /* ArabicStrings.swift in Sources */,
+				C5B5FD681E4B9F43004B20A6 /* LocalizationOrientedViewController.swift in Sources */,
+				C57D42CD1E34F8CD0034D52F /* SocketIOController.swift in Sources */,
+				C53C424E1E70886500375019 /* PhoneListTableViewCell.swift in Sources */,
+				C5E2981E1E648CD6001767D6 /* InvoiceTableViewCell.swift in Sources */,
+				C55D03FA1E37A94200C82D2A /* ProfileViewController.swift in Sources */,
+				C53C424C1E7087C700375019 /* PhoneListViewController.swift in Sources */,
+				C57D42DA1E34F9160034D52F /* UserData.swift in Sources */,
+				C57D42D01E34F8CD0034D52F /* SocketEvents.swift in Sources */,
+				C5F45B8A1E3642F3003DF64A /* LogInViewController.swift in Sources */,
+				C5B5FD601E4B86F6004B20A6 /* PaddedLabel.swift in Sources */,
+				C5A2BE8A1E38CA4700D75CEE /* NewOrderViewController.swift in Sources */,
+				C5078A511E3AC22F008F6455 /* LoadingViewController.swift in Sources */,
+				C53756581E30FE10003AEECE /* SidePanelViewController.swift in Sources */,
+				C55D03F81E37A93100C82D2A /* ProfitViewController.swift in Sources */,
+				C5E2981C1E648B6B001767D6 /* InvoiceViewController.swift in Sources */,
+				C5078A4B1E3AA6E3008F6455 /* ClientMessageCollectionViewCell.swift in Sources */,
+				C56C370D1E3E1CC600324F07 /* OrderHistory.swift in Sources */,
+				C55D03F61E379A3D00C82D2A /* SideTableViewCell.swift in Sources */,
+				C5FE8EEB1E2CC3C8003FEBDA /* MandobiDriver.xcdatamodeld in Sources */,
+				C57363311E3FAA1100E410D8 /* Order.swift in Sources */,
+				C5078A4D1E3AA6F4008F6455 /* DriverMessageCollectionViewCell.swift in Sources */,
+				C55D03FC1E37A95B00C82D2A /* OrdersHistoryViewController.swift in Sources */,
+				C57D42DD1E3507200034D52F /* MapPin.swift in Sources */,
+				C53756541E30FD3B003AEECE /* MainContainerViewController.swift in Sources */,
+				C5B5FD581E4B69BB004B20A6 /* MessagesViewController.swift in Sources */,
+				C500F76D1E509CD20026C30B /* DatePickerViewController.swift in Sources */,
+				C573632F1E3FA87300E410D8 /* Driver.swift in Sources */,
+				C57D42CE1E34F8CD0034D52F /* Request.swift in Sources */,
+				C5FE8EE31E2CC3C8003FEBDA /* AppDelegate.swift in Sources */,
+				C53756561E30FDE1003AEECE /* MainViewController.swift in Sources */,
+				C57D42CF1E34F8CD0034D52F /* Links.swift in Sources */,
+				C5078A4F1E3AB8ED008F6455 /* Message.swift in Sources */,
+				C5B5FD5C1E4B7866004B20A6 /* MessageTableViewCell.swift in Sources */,
+				C57D42D71E34F8F30034D52F /* DialogsHelper.swift in Sources */,
+				C57D42D81E34F8F30034D52F /* LanguageHelper.swift in Sources */,
+				C57D42D61E34F8F30034D52F /* EnglishStrings.swift in Sources */,
+				C5078A451E3A95B7008F6455 /* InfoViewController.swift in Sources */,
+				C5F45B881E3642DD003DF64A /* SplashViewController.swift in Sources */,
+				C56C37091E3E078600324F07 /* OrderHistoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5FE8EE61E2CC3C8003FEBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FE8EE71E2CC3C8003FEBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FE8EEE1E2CC3C8003FEBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FE8EEF1E2CC3C8003FEBDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FE8EF21E2CC3C8003FEBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FE8EF31E2CC3C8003FEBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FE8EF51E2CC3C8003FEBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F16539AD405CA4B7D1789E /* Pods-MandobiDriver.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5XVQXNUMT6;
+				INFOPLIST_FILE = MandobiDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applexicon.MandobiDrivers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C5FE8EF61E2CC3C8003FEBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A83B3E9D89EAF2619EDCEE1 /* Pods-MandobiDriver.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5XVQXNUMT6;
+				INFOPLIST_FILE = MandobiDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applexicon.MandobiDrivers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FE8EDA1E2CC3C8003FEBDA /* Build configuration list for PBXProject "MandobiDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FE8EF21E2CC3C8003FEBDA /* Debug */,
+				C5FE8EF31E2CC3C8003FEBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FE8EF41E2CC3C8003FEBDA /* Build configuration list for PBXNativeTarget "MandobiDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FE8EF51E2CC3C8003FEBDA /* Debug */,
+				C5FE8EF61E2CC3C8003FEBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5FE8EE91E2CC3C8003FEBDA /* MandobiDriver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5FE8EEA1E2CC3C8003FEBDA /* MandobiDriver.xcdatamodel */,
+			);
+			currentVersion = C5FE8EEA1E2CC3C8003FEBDA /* MandobiDriver.xcdatamodel */;
+			path = MandobiDriver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5FE8ED71E2CC3C8003FEBDA /* Project object */;
+}

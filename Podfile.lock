@@ -1,0 +1,15 @@
+PODS:
+  - Socket.IO-Client-Swift (8.3.3)
+  - SwiftyGif (3.0.0)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift (~> 8.3.3)
+  - SwiftyGif
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
+  SwiftyGif: d6b4d63de2a2a5134d8b54ba5719837319d77ef0
+
+PODFILE CHECKSUM: 815376cfc1af6ee8afd11f3308f7520a9a0e3b9b
+
+COCOAPODS: 1.2.0
